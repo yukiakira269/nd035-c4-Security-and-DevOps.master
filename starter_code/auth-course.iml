@@ -63,7 +63,7 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-codec:commons-codec:1.14" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.14" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.h2database:h2:1.4.200" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.3.2.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.3.2.RELEASE" level="project" />
@@ -85,7 +85,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.vintage:junit-vintage-engine:5.6.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.6.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:3.3.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy-agent:1.10.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:2.6" level="project" />
@@ -106,5 +105,37 @@
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:5.3.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.2.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.mojo:tomcat-maven-plugin:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-api:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact-manager:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-repository-metadata:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1" level="project" />
+    <orderEntry type="library" name="Maven: classworlds:classworlds:1.1-alpha-2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.wagon:wagon-provider-api:1.0-alpha-5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-project:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-profile:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-model:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-registry:2.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-archiver:2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-archiver:1.0-alpha-7" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-classworlds:2.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:catalina:6.0.29" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:juli:6.0.29" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:annotations-api:6.0.29" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.tomcat:catalina-ha:6.0.29" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.tomcat:tribes:6.0.29" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.tomcat:el-api:6.0.29" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.tomcat:jasper:6.0.29" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.tomcat:jasper-el:6.0.29" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.tomcat:jasper-jdt:6.0.29" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.tomcat:jsp-api:6.0.29" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:servlet-api:6.0.29" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.tomcat:coyote:6.0.29" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.tomcat:dbcp:6.0.29" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:2.2" level="project" />
   </component>
 </module>
