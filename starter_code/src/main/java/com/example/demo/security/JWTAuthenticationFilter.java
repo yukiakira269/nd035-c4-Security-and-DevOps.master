@@ -9,6 +9,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.example.demo.controllers.UserController;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -22,6 +25,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import static com.auth0.jwt.algorithms.Algorithm.HMAC512;
 
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
+    Logger logger = LogManager.getLogger(UserController.class);
 
 	 private final AuthenticationManager authenticationManager;
 
@@ -42,6 +46,7 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
                             credentials.getPassword(),
                             new ArrayList<>()));
     	} catch (IOException e) {
+            logger.error("Error while authenticating");
     		throw new RuntimeException(e);
     	}
     }
