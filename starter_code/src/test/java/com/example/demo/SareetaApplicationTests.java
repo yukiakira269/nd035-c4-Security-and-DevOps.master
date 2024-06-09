@@ -186,7 +186,7 @@ public class SareetaApplicationTests {
 
         User user = new User();
         user.setUsername("testUser");
-        user.setPassword("123456");
+        user.setPassword("12345678");
         user.setCart(cart);
         cart.setUser(user);
 
@@ -224,7 +224,7 @@ public class SareetaApplicationTests {
     public void addUser() {
         User user = new User();
         user.setUsername("test");
-        user.setPassword("123456");
+        user.setPassword("12345678");
 
         userRepository.save(user);
     }
@@ -258,7 +258,7 @@ public class SareetaApplicationTests {
 
         User user = new User();
         user.setUsername("testUser");
-        user.setPassword("123456");
+        user.setPassword("12345678");
 
         when(userRepository.findByUsername("testUser")).thenReturn(user);
         User userExpected = userController.findByUserName("testUser").getBody();
